@@ -1,0 +1,144 @@
+==============================================================================
+MINI PROJECT 5.3 - PRIVACY-COMPLIANCE CHECKLIST
+App: Imbaraga Fit (hypothetical fitness-tracker app)
+==============================================================================
+
+ID  Data practice                               GDPR       CCPA/CPRA  LGPD       DPDP Act   
+--------------------------------------------------------------------------------------------
+P1  Account data (name, email, password hash)   COMPLIANT  COMPLIANT  COMPLIANT  COMPLIANT  
+P2  Precise GPS location during workouts        COMPLIANT  COMPLIANT  COMPLIANT  COMPLIANT  
+P3  Background location (outside workouts)      GAP        GAP        GAP        GAP        
+P4  Heart rate and health metrics from wristba  GAP        GAP        GAP        GAP        
+P5  Face template for login (biometric)         COMPLIANT  COMPLIANT  COMPLIANT  COMPLIANT  
+P6  Phone contacts (uploaded address book)      GAP        GAP        GAP        GAP        
+P7  Usage analytics (screens, taps, crash logs  COMPLIANT  COMPLIANT  COMPLIANT  GAP        
+P8  Advertising identifier (AAID / IDFA)        GAP        GAP        GAP        GAP        
+
+--- GDPR: gap report ---
+  [HIGH  ] P3 G1   'bundled_terms' is not valid consent - GDPR needs an affirmative, unbundled opt-in
+  [HIGH  ] P3 G2   precise_location collected without explicit opt-in consent
+  [HIGH  ] P3 G4   data passed to other controllers without specific opt-in consent
+  [HIGH  ] P4 G1   'bundled_terms' is not valid consent - GDPR needs an affirmative, unbundled opt-in
+  [HIGH  ] P4 G2   health collected without explicit opt-in consent
+  [HIGH  ] P4 G3   indefinite retention breaks storage limitation
+  [HIGH  ] P4 G4   data passed to other controllers without specific opt-in consent
+  [MEDIUM] P6 G1   'opt_out' is not valid consent - GDPR needs an affirmative, unbundled opt-in
+  [LOW   ] P6 G3   indefinite retention breaks storage limitation
+  [HIGH  ] P8 G1   'bundled_terms' is not valid consent - GDPR needs an affirmative, unbundled opt-in
+  [HIGH  ] P8 G4   data passed to other controllers without specific opt-in consent
+  -> 11 gap(s)
+
+--- CCPA/CPRA: gap report ---
+  [HIGH  ] P3 C2   sold/shared without a 'Do Not Sell or Share My Personal Information' opt-out
+  [HIGH  ] P3 C2b  users aged 13-15 need opt-in before sale/sharing
+  [HIGH  ] P3 C3   sensitive PI (precise_location) used beyond the requested service with no 'Limit the Use of My Sensitive Personal Information' link
+  [HIGH  ] P4 C2   sold/shared without a 'Do Not Sell or Share My Personal Information' opt-out
+  [HIGH  ] P4 C2b  users aged 13-15 need opt-in before sale/sharing
+  [HIGH  ] P4 C3   sensitive PI (health) used beyond the requested service with no 'Limit the Use of My Sensitive Personal Information' link
+  [HIGH  ] P4 C4   retention period not disclosed ('indefinite')
+  [LOW   ] P6 C4   retention period not disclosed ('indefinite')
+  [HIGH  ] P8 C2   sold/shared without a 'Do Not Sell or Share My Personal Information' opt-out
+  [HIGH  ] P8 C2b  users aged 13-15 need opt-in before sale/sharing
+  -> 10 gap(s)
+
+--- LGPD: gap report ---
+  [HIGH  ] P3 L1   'bundled_terms' consent is a generic authorisation - void under LGPD
+  [HIGH  ] P3 L3   sharing with another controller lacks specific consent
+  [HIGH  ] P4 L1   'bundled_terms' consent is a generic authorisation - void under LGPD
+  [HIGH  ] P4 L2   sensitive data (health) needs specific, highlighted consent
+  [HIGH  ] P4 L2b  health data shared with an insurer for economic advantage (restricted by Art. 11)
+  [HIGH  ] P4 L3   sharing with another controller lacks specific consent
+  [HIGH  ] P4 L4   no end of processing - data never eliminated
+  [MEDIUM] P6 L1   'opt_out' consent is a generic authorisation - void under LGPD
+  [LOW   ] P6 L4   no end of processing - data never eliminated
+  [HIGH  ] P8 L1   'bundled_terms' consent is a generic authorisation - void under LGPD
+  [HIGH  ] P8 L3   sharing with another controller lacks specific consent
+  -> 11 gap(s)
+
+--- DPDP Act: gap report ---
+  [HIGH  ] P3 D1   'bundled_terms' is not free, specific, unconditional consent by clear affirmative action
+  [HIGH  ] P3 D4   targeted advertising / tracking of Data Principals under 18 is prohibited
+  [HIGH  ] P4 D1   'bundled_terms' is not free, specific, unconditional consent by clear affirmative action
+  [HIGH  ] P4 D3   Data Fiduciary keeps data after the purpose is served
+  [MEDIUM] P6 D1   'opt_out' is not free, specific, unconditional consent by clear affirmative action
+  [LOW   ] P6 D3   Data Fiduciary keeps data after the purpose is served
+  [MEDIUM] P7 D1   DPDP has no legitimate-interest ground; needs consent or a listed legitimate use
+  [HIGH  ] P8 D1   'bundled_terms' is not free, specific, unconditional consent by clear affirmative action
+  [HIGH  ] P8 D4   targeted advertising / tracking of Data Principals under 18 is prohibited
+  -> 9 gap(s)
+
+--- App-level checks ---
+  GDPR       GAP  DPO for large-scale health-data processing (Art. 37)
+  GDPR       GAP  Parental consent for under-16 users where consent is the basis (Art. 8)
+  CCPA/CPRA  GAP  'Do Not Sell or Share' link
+  CCPA/CPRA  GAP  'Limit the Use of My Sensitive PI' link
+  LGPD       GAP  Encarregado (data protection officer) appointed (Art. 41)
+  DPDP Act   GAP  Grievance redressal for Data Principals
+  DPDP Act   GAP  Verifiable parental consent for users under 18
+  All        OK   Data-rights requests (access / delete / correct) in app
+
+--- Prioritised remediation (merged across frameworks) ---
+
+  [HIGH] P3 Background location (outside workouts)
+     - Replace the 'bundled_terms' mechanism with a separate, explicit,
+       unticked opt-in screen for this one purpose, shown BEFORE
+       collection, with withdrawal as easy as giving consent. [G1 G2 L1
+       D1]
+     - Suspend the feed to AdNet Partners until the user opts in for that
+       named recipient; add a 'Do Not Sell or Share My Personal
+       Information' link that also honours the Global Privacy Control
+       signal. [G4 C2 L3]
+     - Turn off targeted advertising and tracking for every account under
+       18 (DPDP) and require opt-in before any sale/sharing for ages 13-15
+       (CCPA), or raise the minimum age to 18 with an age gate. [C2b D4]
+     - Add a 'Limit the Use of My Sensitive Personal Information' link, or
+       stop using precise location for anything beyond the service the
+       user asked for. [C3]
+
+  [HIGH] P4 Heart rate and health metrics from wristband
+     - Replace the 'bundled_terms' mechanism with a separate, explicit,
+       unticked opt-in screen for this one purpose, shown BEFORE
+       collection, with withdrawal as easy as giving consent. [G1 G2 L1 L2
+       D1]
+     - Suspend the feed to SafeLife Insurance until the user opts in for
+       that named recipient; add a 'Do Not Sell or Share My Personal
+       Information' link that also honours the Global Privacy Control
+       signal. [G4 C2 L3]
+     - Turn off targeted advertising and tracking for every account under
+       18 (DPDP) and require opt-in before any sale/sharing for ages 13-15
+       (CCPA), or raise the minimum age to 18 with an age gate. [C2b]
+     - Add a 'Limit the Use of My Sensitive Personal Information' link, or
+       stop using health for anything beyond the service the user asked
+       for. [C3]
+     - Replace 'indefinite' with a published, finite retention period
+       (e.g. 12 months after last use) and automatic deletion or
+       anonymisation. [G3 C4 L4 D3]
+     - End the transfer of health data to the insurer completely. [L2b]
+
+  [HIGH] P8 Advertising identifier (AAID / IDFA)
+     - Replace the 'bundled_terms' mechanism with a separate, unticked
+       opt-in screen for this one purpose, shown BEFORE collection, with
+       withdrawal as easy as giving consent. [G1 L1 D1]
+     - Suspend the feed to AdNet Partners until the user opts in for that
+       named recipient; add a 'Do Not Sell or Share My Personal
+       Information' link that also honours the Global Privacy Control
+       signal. [G4 C2 L3]
+     - Turn off targeted advertising and tracking for every account under
+       18 (DPDP) and require opt-in before any sale/sharing for ages 13-15
+       (CCPA), or raise the minimum age to 18 with an age gate. [C2b D4]
+
+  [MEDIUM] P6 Phone contacts (uploaded address book)
+     - Replace the 'opt_out' mechanism with a separate, unticked opt-in
+       screen for this one purpose, shown BEFORE collection, with
+       withdrawal as easy as giving consent. [G1 L1 D1]
+     - Replace 'indefinite' with a published, finite retention period
+       (e.g. 12 months after last use) and automatic deletion or
+       anonymisation. [G3 C4 L4 D3]
+
+  [MEDIUM] P7 Usage analytics (screens, taps, crash logs)
+     - For Indian users, switch this processing from opt-out to an opt-in
+       consent toggle (DPDP has no legitimate-interest ground); keep the
+       documented legitimate-interest basis for GDPR and LGPD. [D1]
+
+Total gaps: 48  (HIGH 33, MEDIUM 11, LOW 4)
+Saved: outputs/privacy_checklist_matrix.csv, outputs/privacy_gap_report.csv, outputs/privacy_remediation_plan.csv

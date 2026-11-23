@@ -1,0 +1,126 @@
+{
+  "app_name": "Imbaraga Fit (hypothetical fitness-tracker app)",
+  "description": "Free, ad-supported running and fitness tracker with a paid premium tier. Pairs with a heart-rate wristband, records GPS routes and offers a friend finder.",
+  "markets": ["EU", "California (USA)", "Brazil", "India", "Rwanda"],
+  "assumptions": [
+    "The operator is a for-profit company that meets the CCPA/CPRA business thresholds (over 100,000 California consumers).",
+    "The same build and the same data practices are shipped in every market."
+  ],
+  "app_level": {
+    "minimum_user_age": 13,
+    "privacy_notice_published": true,
+    "notice_lists_each_category_and_purpose": true,
+    "data_rights_request_in_app": true,
+    "do_not_sell_or_share_link": false,
+    "limit_sensitive_pi_link": false,
+    "gdpr_dpo_appointed": false,
+    "lgpd_encarregado_appointed": false,
+    "dpdp_grievance_officer": false
+  },
+  "practices": [
+    {
+      "id": "P1",
+      "data_category": "Account data (name, email, password hash)",
+      "purpose": "Create and secure the user account",
+      "sensitive_type": null,
+      "lawful_basis": "contract",
+      "consent_mechanism": "not_required",
+      "retention": "Until account deletion + 30 days",
+      "retention_days": 30,
+      "retention_after_purpose": true,
+      "shared_with": [],
+      "lia_documented": false
+    },
+    {
+      "id": "P2",
+      "data_category": "Precise GPS location during workouts",
+      "purpose": "Record and display run routes",
+      "sensitive_type": "precise_location",
+      "lawful_basis": "consent",
+      "consent_mechanism": "opt_in",
+      "retention": "24 months",
+      "retention_days": 730,
+      "retention_after_purpose": false,
+      "shared_with": [],
+      "lia_documented": false
+    },
+    {
+      "id": "P3",
+      "data_category": "Background location (outside workouts)",
+      "purpose": "Location-based advertising",
+      "sensitive_type": "precise_location",
+      "lawful_basis": "consent",
+      "consent_mechanism": "bundled_terms",
+      "retention": "24 months",
+      "retention_days": 730,
+      "retention_after_purpose": false,
+      "shared_with": [{"party": "AdNet Partners", "type": "sale_or_share", "purpose": "targeted advertising"}],
+      "lia_documented": false
+    },
+    {
+      "id": "P4",
+      "data_category": "Heart rate and health metrics from wristband",
+      "purpose": "Training zones; wellness-discount offers from an insurer",
+      "sensitive_type": "health",
+      "lawful_basis": "consent",
+      "consent_mechanism": "bundled_terms",
+      "retention": "Indefinite",
+      "retention_days": null,
+      "retention_after_purpose": false,
+      "shared_with": [{"party": "SafeLife Insurance", "type": "sale_or_share", "purpose": "insurance wellness offers"}],
+      "lia_documented": false
+    },
+    {
+      "id": "P5",
+      "data_category": "Face template for login (biometric)",
+      "purpose": "Authenticate the user (face unlock)",
+      "sensitive_type": "biometric",
+      "lawful_basis": "consent",
+      "consent_mechanism": "opt_in",
+      "retention": "Until account deletion",
+      "retention_days": 0,
+      "retention_after_purpose": true,
+      "shared_with": [],
+      "lia_documented": false
+    },
+    {
+      "id": "P6",
+      "data_category": "Phone contacts (uploaded address book)",
+      "purpose": "Friend finder",
+      "sensitive_type": null,
+      "lawful_basis": "consent",
+      "consent_mechanism": "opt_out",
+      "retention": "Indefinite",
+      "retention_days": null,
+      "retention_after_purpose": false,
+      "shared_with": [],
+      "lia_documented": false
+    },
+    {
+      "id": "P7",
+      "data_category": "Usage analytics (screens, taps, crash logs)",
+      "purpose": "Product improvement and crash fixing",
+      "sensitive_type": null,
+      "lawful_basis": "legitimate_interest",
+      "consent_mechanism": "opt_out",
+      "retention": "13 months",
+      "retention_days": 395,
+      "retention_after_purpose": false,
+      "shared_with": [{"party": "CloudMetrics Ltd", "type": "service_provider", "purpose": "analytics processing under contract"}],
+      "lia_documented": true
+    },
+    {
+      "id": "P8",
+      "data_category": "Advertising identifier (AAID / IDFA)",
+      "purpose": "Personalised (cross-context behavioural) advertising",
+      "sensitive_type": null,
+      "lawful_basis": "consent",
+      "consent_mechanism": "bundled_terms",
+      "retention": "24 months",
+      "retention_days": 730,
+      "retention_after_purpose": false,
+      "shared_with": [{"party": "AdNet Partners", "type": "sale_or_share", "purpose": "targeted advertising"}],
+      "lia_documented": false
+    }
+  ]
+}

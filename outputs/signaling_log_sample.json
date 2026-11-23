@@ -1,0 +1,2319 @@
+{
+ "events": [
+  {
+   "event_id": 222,
+   "timestamp": "2026-11-23T00:02:59Z",
+   "subscriber_id": "IMSI-6353301595691",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 41,
+   "timestamp": "2026-11-23T00:04:10Z",
+   "subscriber_id": "IMSI-6354607634174",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 229,
+   "timestamp": "2026-11-23T00:22:51Z",
+   "subscriber_id": "IMSI-6355942859575",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 179,
+   "timestamp": "2026-11-23T00:25:36Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 5,
+   "timestamp": "2026-11-23T00:26:21Z",
+   "subscriber_id": "IMSI-6356538829718",
+   "event_type": "attach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 99,
+   "timestamp": "2026-11-23T00:36:46Z",
+   "subscriber_id": "IMSI-6352599435267",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 52,
+   "timestamp": "2026-11-23T00:46:44Z",
+   "subscriber_id": "IMSI-6352823296038",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 269,
+   "timestamp": "2026-11-23T00:52:59Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 27,
+   "timestamp": "2026-11-23T00:59:04Z",
+   "subscriber_id": "IMSI-6353869965264",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 48,
+   "timestamp": "2026-11-23T01:00:10Z",
+   "subscriber_id": "IMSI-6352823296038",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 70,
+   "timestamp": "2026-11-23T01:00:52Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 35,
+   "timestamp": "2026-11-23T01:03:18Z",
+   "subscriber_id": "IMSI-6357241379376",
+   "event_type": "detach",
+   "country": "UG"
+  },
+  {
+   "event_id": 188,
+   "timestamp": "2026-11-23T01:03:22Z",
+   "subscriber_id": "IMSI-6357550669089",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 260,
+   "timestamp": "2026-11-23T01:06:09Z",
+   "subscriber_id": "IMSI-6355209818936",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 308,
+   "timestamp": "2026-11-23T01:08:44Z",
+   "subscriber_id": "IMSI-6352340870464",
+   "event_type": "purge_all_subs",
+   "country": "RW"
+  },
+  {
+   "event_id": 93,
+   "timestamp": "2026-11-23T01:26:28Z",
+   "subscriber_id": "IMSI-6352599435267",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 266,
+   "timestamp": "2026-11-23T01:35:12Z",
+   "subscriber_id": "IMSI-6354607634174",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 122,
+   "timestamp": "2026-11-23T01:38:49Z",
+   "subscriber_id": "IMSI-6359859611191",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 156,
+   "timestamp": "2026-11-23T01:42:07Z",
+   "subscriber_id": "IMSI-6359859611191",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 193,
+   "timestamp": "2026-11-23T01:46:59Z",
+   "subscriber_id": "IMSI-6352795823848",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 190,
+   "timestamp": "2026-11-23T01:48:04Z",
+   "subscriber_id": "IMSI-6357157461338",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 146,
+   "timestamp": "2026-11-23T01:50:55Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 246,
+   "timestamp": "2026-11-23T01:58:44Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 263,
+   "timestamp": "2026-11-23T02:15:26Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 208,
+   "timestamp": "2026-11-23T02:15:34Z",
+   "subscriber_id": "IMSI-6356644219119",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 13,
+   "timestamp": "2026-11-23T02:15:58Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 150,
+   "timestamp": "2026-11-23T02:24:17Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "sms_mo",
+   "country": "KE"
+  },
+  {
+   "event_id": 101,
+   "timestamp": "2026-11-23T02:25:32Z",
+   "subscriber_id": "IMSI-6356538829718",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 168,
+   "timestamp": "2026-11-23T02:42:59Z",
+   "subscriber_id": "IMSI-6354687093963",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 199,
+   "timestamp": "2026-11-23T02:44:12Z",
+   "subscriber_id": "IMSI-6352703729684",
+   "event_type": "location_update",
+   "country": "UG"
+  },
+  {
+   "event_id": 182,
+   "timestamp": "2026-11-23T02:46:53Z",
+   "subscriber_id": "IMSI-6357847766477",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 166,
+   "timestamp": "2026-11-23T02:47:02Z",
+   "subscriber_id": "IMSI-6358427910944",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 157,
+   "timestamp": "2026-11-23T02:49:14Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 276,
+   "timestamp": "2026-11-23T02:52:36Z",
+   "subscriber_id": "IMSI-6352959386986",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 235,
+   "timestamp": "2026-11-23T02:57:08Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 100,
+   "timestamp": "2026-11-23T03:02:56Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "auth_request",
+   "country": "TZ"
+  },
+  {
+   "event_id": 221,
+   "timestamp": "2026-11-23T03:05:41Z",
+   "subscriber_id": "IMSI-6358427910944",
+   "event_type": "auth_request",
+   "country": "TZ"
+  },
+  {
+   "event_id": 143,
+   "timestamp": "2026-11-23T03:05:53Z",
+   "subscriber_id": "IMSI-6356538829718",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 97,
+   "timestamp": "2026-11-23T03:15:25Z",
+   "subscriber_id": "IMSI-6356179553247",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 130,
+   "timestamp": "2026-11-23T03:18:28Z",
+   "subscriber_id": "IMSI-6355942859575",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 211,
+   "timestamp": "2026-11-23T03:22:17Z",
+   "subscriber_id": "IMSI-6354687093963",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 69,
+   "timestamp": "2026-11-23T03:33:31Z",
+   "subscriber_id": "IMSI-6353301595691",
+   "event_type": "auth_request",
+   "country": "TZ"
+  },
+  {
+   "event_id": 226,
+   "timestamp": "2026-11-23T03:37:14Z",
+   "subscriber_id": "IMSI-6359979544025",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 161,
+   "timestamp": "2026-11-23T03:37:24Z",
+   "subscriber_id": "IMSI-6352599435267",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 184,
+   "timestamp": "2026-11-23T03:42:11Z",
+   "subscriber_id": "IMSI-6352599435267",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 294,
+   "timestamp": "2026-11-23T03:43:32Z",
+   "subscriber_id": "IMSI-6353301595691",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 12,
+   "timestamp": "2026-11-23T03:46:10Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 92,
+   "timestamp": "2026-11-23T03:48:53Z",
+   "subscriber_id": "IMSI-6356538829718",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 280,
+   "timestamp": "2026-11-23T03:49:51Z",
+   "subscriber_id": "IMSI-6357550669089",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 67,
+   "timestamp": "2026-11-23T03:51:47Z",
+   "subscriber_id": "IMSI-6355209818936",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 113,
+   "timestamp": "2026-11-23T03:52:10Z",
+   "subscriber_id": "IMSI-6359053654215",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 218,
+   "timestamp": "2026-11-23T03:58:12Z",
+   "subscriber_id": "IMSI-6351776213899",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 91,
+   "timestamp": "2026-11-23T04:06:31Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 249,
+   "timestamp": "2026-11-23T04:07:18Z",
+   "subscriber_id": "IMSI-6356179553247",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 21,
+   "timestamp": "2026-11-23T04:11:59Z",
+   "subscriber_id": "IMSI-6359979544025",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 198,
+   "timestamp": "2026-11-23T04:21:34Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 65,
+   "timestamp": "2026-11-23T04:22:52Z",
+   "subscriber_id": "IMSI-6354607634174",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 255,
+   "timestamp": "2026-11-23T04:30:14Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 214,
+   "timestamp": "2026-11-23T04:37:58Z",
+   "subscriber_id": "IMSI-6353795742288",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 194,
+   "timestamp": "2026-11-23T04:38:06Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 224,
+   "timestamp": "2026-11-23T04:39:32Z",
+   "subscriber_id": "IMSI-6359845919668",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 118,
+   "timestamp": "2026-11-23T04:43:35Z",
+   "subscriber_id": "IMSI-6353179419893",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 61,
+   "timestamp": "2026-11-23T04:45:39Z",
+   "subscriber_id": "IMSI-6358546862847",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 58,
+   "timestamp": "2026-11-23T04:46:20Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 170,
+   "timestamp": "2026-11-23T04:49:40Z",
+   "subscriber_id": "IMSI-6352287489453",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 140,
+   "timestamp": "2026-11-23T05:04:19Z",
+   "subscriber_id": "IMSI-6358546862847",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 247,
+   "timestamp": "2026-11-23T05:10:00Z",
+   "subscriber_id": "IMSI-6352959386986",
+   "event_type": "attach",
+   "country": "UG"
+  },
+  {
+   "event_id": 131,
+   "timestamp": "2026-11-23T05:14:16Z",
+   "subscriber_id": "IMSI-6357157461338",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 23,
+   "timestamp": "2026-11-23T05:14:49Z",
+   "subscriber_id": "IMSI-6357157461338",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 7,
+   "timestamp": "2026-11-23T05:18:14Z",
+   "subscriber_id": "IMSI-6355942859575",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 137,
+   "timestamp": "2026-11-23T05:26:30Z",
+   "subscriber_id": "IMSI-6352795823848",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 4,
+   "timestamp": "2026-11-23T05:30:30Z",
+   "subscriber_id": "IMSI-6355192983756",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 274,
+   "timestamp": "2026-11-23T05:30:33Z",
+   "subscriber_id": "IMSI-6359845919668",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 51,
+   "timestamp": "2026-11-23T05:40:35Z",
+   "subscriber_id": "IMSI-6357241379376",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 47,
+   "timestamp": "2026-11-23T05:47:01Z",
+   "subscriber_id": "IMSI-6357157461338",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 277,
+   "timestamp": "2026-11-23T05:49:23Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 303,
+   "timestamp": "2026-11-23T06:08:49Z",
+   "subscriber_id": "IMSI-6355455833212",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 253,
+   "timestamp": "2026-11-23T06:09:45Z",
+   "subscriber_id": "IMSI-6359053654215",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 64,
+   "timestamp": "2026-11-23T06:16:29Z",
+   "subscriber_id": "IMSI-6355070378921",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 283,
+   "timestamp": "2026-11-23T06:18:20Z",
+   "subscriber_id": "IMSI-6359053654215",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 304,
+   "timestamp": "2026-11-23T06:24:49Z",
+   "subscriber_id": "IMSI-6355455833212",
+   "event_type": "location_update",
+   "country": "GB"
+  },
+  {
+   "event_id": 109,
+   "timestamp": "2026-11-23T06:28:37Z",
+   "subscriber_id": "IMSI-6358546862847",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 6,
+   "timestamp": "2026-11-23T06:38:20Z",
+   "subscriber_id": "IMSI-6357847766477",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 273,
+   "timestamp": "2026-11-23T06:39:38Z",
+   "subscriber_id": "IMSI-6352795823848",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 63,
+   "timestamp": "2026-11-23T06:40:00Z",
+   "subscriber_id": "IMSI-6359053654215",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 248,
+   "timestamp": "2026-11-23T06:42:10Z",
+   "subscriber_id": "IMSI-6353179419893",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 297,
+   "timestamp": "2026-11-23T06:54:07Z",
+   "subscriber_id": "IMSI-6353179419893",
+   "event_type": "auth_request",
+   "country": "TZ"
+  },
+  {
+   "event_id": 187,
+   "timestamp": "2026-11-23T06:54:43Z",
+   "subscriber_id": "IMSI-6356179553247",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 202,
+   "timestamp": "2026-11-23T07:00:19Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 259,
+   "timestamp": "2026-11-23T07:01:40Z",
+   "subscriber_id": "IMSI-6359053654215",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 234,
+   "timestamp": "2026-11-23T07:04:03Z",
+   "subscriber_id": "IMSI-6353795742288",
+   "event_type": "attach",
+   "country": "KE"
+  },
+  {
+   "event_id": 298,
+   "timestamp": "2026-11-23T07:04:09Z",
+   "subscriber_id": "IMSI-6357847766477",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 258,
+   "timestamp": "2026-11-23T07:07:32Z",
+   "subscriber_id": "IMSI-6355209818936",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 86,
+   "timestamp": "2026-11-23T07:07:36Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 288,
+   "timestamp": "2026-11-23T07:15:08Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "attach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 34,
+   "timestamp": "2026-11-23T07:16:43Z",
+   "subscriber_id": "IMSI-6356538829718",
+   "event_type": "auth_request",
+   "country": "TZ"
+  },
+  {
+   "event_id": 240,
+   "timestamp": "2026-11-23T07:17:48Z",
+   "subscriber_id": "IMSI-6352795823848",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 205,
+   "timestamp": "2026-11-23T07:21:35Z",
+   "subscriber_id": "IMSI-6358281238159",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 40,
+   "timestamp": "2026-11-23T07:26:27Z",
+   "subscriber_id": "IMSI-6356644219119",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 108,
+   "timestamp": "2026-11-23T07:29:43Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 18,
+   "timestamp": "2026-11-23T07:34:16Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 207,
+   "timestamp": "2026-11-23T07:38:45Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 55,
+   "timestamp": "2026-11-23T07:41:01Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 126,
+   "timestamp": "2026-11-23T07:55:56Z",
+   "subscriber_id": "IMSI-6359845919668",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 82,
+   "timestamp": "2026-11-23T07:59:41Z",
+   "subscriber_id": "IMSI-6358427910944",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 228,
+   "timestamp": "2026-11-23T08:08:25Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 84,
+   "timestamp": "2026-11-23T08:08:42Z",
+   "subscriber_id": "IMSI-6352703729684",
+   "event_type": "location_update",
+   "country": "UG"
+  },
+  {
+   "event_id": 39,
+   "timestamp": "2026-11-23T08:15:33Z",
+   "subscriber_id": "IMSI-6351300026767",
+   "event_type": "attach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 116,
+   "timestamp": "2026-11-23T08:21:29Z",
+   "subscriber_id": "IMSI-6354687093963",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 153,
+   "timestamp": "2026-11-23T08:24:03Z",
+   "subscriber_id": "IMSI-6354687093963",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 3,
+   "timestamp": "2026-11-23T08:24:05Z",
+   "subscriber_id": "IMSI-6354411833895",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 241,
+   "timestamp": "2026-11-23T08:24:12Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "attach",
+   "country": "KE"
+  },
+  {
+   "event_id": 172,
+   "timestamp": "2026-11-23T08:25:27Z",
+   "subscriber_id": "IMSI-6352287489453",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 152,
+   "timestamp": "2026-11-23T08:32:53Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 105,
+   "timestamp": "2026-11-23T08:40:52Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 204,
+   "timestamp": "2026-11-23T08:42:22Z",
+   "subscriber_id": "IMSI-6356179553247",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 33,
+   "timestamp": "2026-11-23T08:42:57Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "sms_mo",
+   "country": "KE"
+  },
+  {
+   "event_id": 78,
+   "timestamp": "2026-11-23T08:45:41Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 147,
+   "timestamp": "2026-11-23T08:54:14Z",
+   "subscriber_id": "IMSI-6353869965264",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 289,
+   "timestamp": "2026-11-23T08:55:57Z",
+   "subscriber_id": "IMSI-6355192983756",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 232,
+   "timestamp": "2026-11-23T08:59:42Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 129,
+   "timestamp": "2026-11-23T09:02:09Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 68,
+   "timestamp": "2026-11-23T09:02:50Z",
+   "subscriber_id": "IMSI-6353179419893",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 110,
+   "timestamp": "2026-11-23T09:07:06Z",
+   "subscriber_id": "IMSI-6353795742288",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 151,
+   "timestamp": "2026-11-23T09:10:55Z",
+   "subscriber_id": "IMSI-6355209818936",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 81,
+   "timestamp": "2026-11-23T09:12:55Z",
+   "subscriber_id": "IMSI-6355070378921",
+   "event_type": "call_setup",
+   "country": "TZ"
+  },
+  {
+   "event_id": 180,
+   "timestamp": "2026-11-23T09:13:09Z",
+   "subscriber_id": "IMSI-6359859611191",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 158,
+   "timestamp": "2026-11-23T09:14:44Z",
+   "subscriber_id": "IMSI-6356644219119",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 95,
+   "timestamp": "2026-11-23T09:24:56Z",
+   "subscriber_id": "IMSI-6357550669089",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 75,
+   "timestamp": "2026-11-23T09:27:05Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 106,
+   "timestamp": "2026-11-23T09:32:07Z",
+   "subscriber_id": "IMSI-6352703729684",
+   "event_type": "location_update",
+   "country": "UG"
+  },
+  {
+   "event_id": 24,
+   "timestamp": "2026-11-23T09:38:22Z",
+   "subscriber_id": "IMSI-6356644219119",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 186,
+   "timestamp": "2026-11-23T09:40:29Z",
+   "subscriber_id": "IMSI-6351776213899",
+   "event_type": "attach",
+   "country": "KE"
+  },
+  {
+   "event_id": 287,
+   "timestamp": "2026-11-23T09:44:43Z",
+   "subscriber_id": "IMSI-6358281238159",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 167,
+   "timestamp": "2026-11-23T09:46:53Z",
+   "subscriber_id": "IMSI-6359053654215",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 123,
+   "timestamp": "2026-11-23T09:47:43Z",
+   "subscriber_id": "IMSI-6352703729684",
+   "event_type": "attach",
+   "country": "UG"
+  },
+  {
+   "event_id": 94,
+   "timestamp": "2026-11-23T09:50:47Z",
+   "subscriber_id": "IMSI-6355192983756",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 183,
+   "timestamp": "2026-11-23T10:01:05Z",
+   "subscriber_id": "IMSI-6357550669089",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 267,
+   "timestamp": "2026-11-23T10:02:07Z",
+   "subscriber_id": "IMSI-6356179553247",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 230,
+   "timestamp": "2026-11-23T10:08:37Z",
+   "subscriber_id": "IMSI-6358427910944",
+   "event_type": "detach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 128,
+   "timestamp": "2026-11-23T10:09:19Z",
+   "subscriber_id": "IMSI-6355209818936",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 171,
+   "timestamp": "2026-11-23T10:10:43Z",
+   "subscriber_id": "IMSI-6358546862847",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 254,
+   "timestamp": "2026-11-23T10:11:14Z",
+   "subscriber_id": "IMSI-6357157461338",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 162,
+   "timestamp": "2026-11-23T10:35:23Z",
+   "subscriber_id": "IMSI-6352795823848",
+   "event_type": "sms_mo",
+   "country": "KE"
+  },
+  {
+   "event_id": 56,
+   "timestamp": "2026-11-23T10:39:59Z",
+   "subscriber_id": "IMSI-6354687093963",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 296,
+   "timestamp": "2026-11-23T10:41:32Z",
+   "subscriber_id": "IMSI-6353301595691",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 286,
+   "timestamp": "2026-11-23T10:42:05Z",
+   "subscriber_id": "IMSI-6359979544025",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 242,
+   "timestamp": "2026-11-23T10:44:17Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 90,
+   "timestamp": "2026-11-23T10:45:25Z",
+   "subscriber_id": "IMSI-6354607634174",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 197,
+   "timestamp": "2026-11-23T10:57:11Z",
+   "subscriber_id": "IMSI-6351776213899",
+   "event_type": "attach",
+   "country": "KE"
+  },
+  {
+   "event_id": 175,
+   "timestamp": "2026-11-23T10:59:37Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 79,
+   "timestamp": "2026-11-23T11:01:25Z",
+   "subscriber_id": "IMSI-6354687093963",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 107,
+   "timestamp": "2026-11-23T11:21:33Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 275,
+   "timestamp": "2026-11-23T11:38:03Z",
+   "subscriber_id": "IMSI-6356179553247",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 125,
+   "timestamp": "2026-11-23T11:46:46Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 57,
+   "timestamp": "2026-11-23T11:52:08Z",
+   "subscriber_id": "IMSI-6357847766477",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 250,
+   "timestamp": "2026-11-23T11:59:14Z",
+   "subscriber_id": "IMSI-6352703729684",
+   "event_type": "location_update",
+   "country": "UG"
+  },
+  {
+   "event_id": 177,
+   "timestamp": "2026-11-23T12:03:47Z",
+   "subscriber_id": "IMSI-6359979544025",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 265,
+   "timestamp": "2026-11-23T12:11:45Z",
+   "subscriber_id": "IMSI-6352599435267",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 127,
+   "timestamp": "2026-11-23T12:12:32Z",
+   "subscriber_id": "IMSI-6355942859575",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 237,
+   "timestamp": "2026-11-23T12:18:29Z",
+   "subscriber_id": "IMSI-6353301595691",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 203,
+   "timestamp": "2026-11-23T12:27:00Z",
+   "subscriber_id": "IMSI-6355192983756",
+   "event_type": "auth_request",
+   "country": "TZ"
+  },
+  {
+   "event_id": 195,
+   "timestamp": "2026-11-23T12:30:44Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 176,
+   "timestamp": "2026-11-23T12:31:23Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 37,
+   "timestamp": "2026-11-23T12:32:05Z",
+   "subscriber_id": "IMSI-6352959386986",
+   "event_type": "attach",
+   "country": "UG"
+  },
+  {
+   "event_id": 30,
+   "timestamp": "2026-11-23T12:57:01Z",
+   "subscriber_id": "IMSI-6352703729684",
+   "event_type": "sms_mo",
+   "country": "UG"
+  },
+  {
+   "event_id": 209,
+   "timestamp": "2026-11-23T13:06:44Z",
+   "subscriber_id": "IMSI-6358281238159",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 26,
+   "timestamp": "2026-11-23T13:10:15Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 17,
+   "timestamp": "2026-11-23T13:14:19Z",
+   "subscriber_id": "IMSI-6351300026767",
+   "event_type": "auth_request",
+   "country": "TZ"
+  },
+  {
+   "event_id": 124,
+   "timestamp": "2026-11-23T13:15:28Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "detach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 38,
+   "timestamp": "2026-11-23T13:16:33Z",
+   "subscriber_id": "IMSI-6357241379376",
+   "event_type": "location_update",
+   "country": "UG"
+  },
+  {
+   "event_id": 87,
+   "timestamp": "2026-11-23T13:19:26Z",
+   "subscriber_id": "IMSI-6357157461338",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 236,
+   "timestamp": "2026-11-23T13:28:45Z",
+   "subscriber_id": "IMSI-6357550669089",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 307,
+   "timestamp": "2026-11-23T13:32:13Z",
+   "subscriber_id": "IMSI-6356700492042",
+   "event_type": "location_update"
+  },
+  {
+   "event_id": 252,
+   "timestamp": "2026-11-23T13:36:45Z",
+   "subscriber_id": "IMSI-6354411833895",
+   "event_type": "detach",
+   "country": "KE"
+  },
+  {
+   "event_id": 262,
+   "timestamp": "2026-11-23T13:40:26Z",
+   "subscriber_id": "IMSI-6353301595691",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 145,
+   "timestamp": "2026-11-23T13:42:44Z",
+   "subscriber_id": "IMSI-6351300026767",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 256,
+   "timestamp": "2026-11-23T13:50:24Z",
+   "subscriber_id": "IMSI-6354687093963",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 120,
+   "timestamp": "2026-11-23T13:52:02Z",
+   "subscriber_id": "IMSI-6357157461338",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 206,
+   "timestamp": "2026-11-23T13:56:19Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 89,
+   "timestamp": "2026-11-23T13:59:36Z",
+   "subscriber_id": "IMSI-6353795742288",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 212,
+   "timestamp": "2026-11-23T14:00:05Z",
+   "subscriber_id": "IMSI-6351776213899",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 271,
+   "timestamp": "2026-11-23T14:04:21Z",
+   "subscriber_id": "IMSI-6358427910944",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 43,
+   "timestamp": "2026-11-23T14:08:46Z",
+   "subscriber_id": "IMSI-6359979544025",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 136,
+   "timestamp": "2026-11-23T14:10:54Z",
+   "subscriber_id": "IMSI-6352959386986",
+   "event_type": "sms_mo",
+   "country": "UG"
+  },
+  {
+   "event_id": 181,
+   "timestamp": "2026-11-23T14:12:19Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 216,
+   "timestamp": "2026-11-23T14:15:17Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 77,
+   "timestamp": "2026-11-23T14:17:07Z",
+   "subscriber_id": "IMSI-6359979544025",
+   "event_type": "attach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 11,
+   "timestamp": "2026-11-23T14:17:09Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 132,
+   "timestamp": "2026-11-23T14:20:39Z",
+   "subscriber_id": "IMSI-6353301595691",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 173,
+   "timestamp": "2026-11-23T14:20:52Z",
+   "subscriber_id": "IMSI-6352795823848",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 291,
+   "timestamp": "2026-11-23T14:25:13Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 238,
+   "timestamp": "2026-11-23T14:25:51Z",
+   "subscriber_id": "IMSI-6352287489453",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 83,
+   "timestamp": "2026-11-23T14:30:00Z",
+   "subscriber_id": "IMSI-6351300026767",
+   "event_type": "call_setup",
+   "country": "TZ"
+  },
+  {
+   "event_id": 178,
+   "timestamp": "2026-11-23T14:30:00Z",
+   "subscriber_id": "IMSI-6356644219119",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 117,
+   "timestamp": "2026-11-23T14:44:04Z",
+   "subscriber_id": "IMSI-6352823296038",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 2,
+   "timestamp": "2026-11-23T15:07:13Z",
+   "subscriber_id": "IMSI-6352599435267",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 103,
+   "timestamp": "2026-11-23T15:12:36Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 60,
+   "timestamp": "2026-11-23T15:18:52Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "sms_mo",
+   "country": "KE"
+  },
+  {
+   "event_id": 282,
+   "timestamp": "2026-11-23T15:19:49Z",
+   "subscriber_id": "IMSI-6351300026767",
+   "event_type": "attach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 98,
+   "timestamp": "2026-11-23T15:29:07Z",
+   "subscriber_id": "IMSI-6355192983756",
+   "event_type": "call_setup",
+   "country": "TZ"
+  },
+  {
+   "event_id": 1,
+   "timestamp": "2026-11-23T15:40:29Z",
+   "subscriber_id": "IMSI-6352823296038",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 119,
+   "timestamp": "2026-11-23T15:40:58Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 213,
+   "timestamp": "2026-11-23T15:43:21Z",
+   "subscriber_id": "IMSI-6359053654215",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 257,
+   "timestamp": "2026-11-23T15:44:41Z",
+   "subscriber_id": "IMSI-6359845919668",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 54,
+   "timestamp": "2026-11-23T15:47:40Z",
+   "subscriber_id": "IMSI-6352823296038",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 14,
+   "timestamp": "2026-11-23T16:02:33Z",
+   "subscriber_id": "IMSI-6354687093963",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 71,
+   "timestamp": "2026-11-23T16:08:17Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 76,
+   "timestamp": "2026-11-23T16:17:38Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 295,
+   "timestamp": "2026-11-23T16:19:19Z",
+   "subscriber_id": "IMSI-6356538829718",
+   "event_type": "call_setup",
+   "country": "TZ"
+  },
+  {
+   "event_id": 201,
+   "timestamp": "2026-11-23T16:22:57Z",
+   "subscriber_id": "IMSI-6356644219119",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 191,
+   "timestamp": "2026-11-23T16:24:55Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 73,
+   "timestamp": "2026-11-23T16:28:09Z",
+   "subscriber_id": "IMSI-6352599435267",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 102,
+   "timestamp": "2026-11-23T16:31:17Z",
+   "subscriber_id": "IMSI-6359979544025",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 10,
+   "timestamp": "2026-11-23T16:37:33Z",
+   "subscriber_id": "IMSI-6353179419893",
+   "event_type": "call_setup",
+   "country": "TZ"
+  },
+  {
+   "event_id": 148,
+   "timestamp": "2026-11-23T16:38:13Z",
+   "subscriber_id": "IMSI-6355942859575",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 59,
+   "timestamp": "2026-11-23T16:40:52Z",
+   "subscriber_id": "IMSI-6357241379376",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 88,
+   "timestamp": "2026-11-23T16:41:58Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 284,
+   "timestamp": "2026-11-23T16:46:54Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 46,
+   "timestamp": "2026-11-23T16:51:47Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 163,
+   "timestamp": "2026-11-23T16:55:04Z",
+   "subscriber_id": "IMSI-6359859611191",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 251,
+   "timestamp": "2026-11-23T17:01:31Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 217,
+   "timestamp": "2026-11-23T17:02:41Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "detach",
+   "country": "KE"
+  },
+  {
+   "event_id": 36,
+   "timestamp": "2026-11-23T17:11:37Z",
+   "subscriber_id": "IMSI-6352599435267",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 165,
+   "timestamp": "2026-11-23T17:13:09Z",
+   "subscriber_id": "IMSI-6357157461338",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 50,
+   "timestamp": "2026-11-23T17:16:14Z",
+   "subscriber_id": "IMSI-6352959386986",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 270,
+   "timestamp": "2026-11-23T17:18:03Z",
+   "subscriber_id": "IMSI-6351300026767",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 231,
+   "timestamp": "2026-11-23T17:18:19Z",
+   "subscriber_id": "IMSI-6351776213899",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 44,
+   "timestamp": "2026-11-23T17:24:16Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 155,
+   "timestamp": "2026-11-23T17:26:24Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 22,
+   "timestamp": "2026-11-23T17:29:26Z",
+   "subscriber_id": "IMSI-6358427910944",
+   "event_type": "attach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 160,
+   "timestamp": "2026-11-23T17:33:51Z",
+   "subscriber_id": "IMSI-6355942859575",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 309,
+   "timestamp": "2026-11-23T17:36:14Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 310,
+   "timestamp": "2026-11-23T17:36:16Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 311,
+   "timestamp": "2026-11-23T17:36:18Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 312,
+   "timestamp": "2026-11-23T17:36:20Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 313,
+   "timestamp": "2026-11-23T17:36:22Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 314,
+   "timestamp": "2026-11-23T17:36:24Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 315,
+   "timestamp": "2026-11-23T17:36:26Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 316,
+   "timestamp": "2026-11-23T17:36:28Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 317,
+   "timestamp": "2026-11-23T17:36:30Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 318,
+   "timestamp": "2026-11-23T17:36:32Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 319,
+   "timestamp": "2026-11-23T17:36:34Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 320,
+   "timestamp": "2026-11-23T17:36:36Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 321,
+   "timestamp": "2026-11-23T17:36:38Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 322,
+   "timestamp": "2026-11-23T17:36:40Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 323,
+   "timestamp": "2026-11-23T17:36:42Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 324,
+   "timestamp": "2026-11-23T17:36:44Z",
+   "subscriber_id": "IMSI-6358710673891",
+   "event_type": "auth_request",
+   "country": "UG"
+  },
+  {
+   "event_id": 244,
+   "timestamp": "2026-11-23T17:39:36Z",
+   "subscriber_id": "IMSI-6356538829718",
+   "event_type": "attach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 174,
+   "timestamp": "2026-11-23T17:54:07Z",
+   "subscriber_id": "IMSI-6355942859575",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 272,
+   "timestamp": "2026-11-23T17:58:00Z",
+   "subscriber_id": "IMSI-6357550669089",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 154,
+   "timestamp": "2026-11-23T17:59:02Z",
+   "subscriber_id": "IMSI-6358427910944",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 243,
+   "timestamp": "2026-11-23T18:03:00Z",
+   "subscriber_id": "IMSI-6354607634174",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 239,
+   "timestamp": "2026-11-23T18:22:55Z",
+   "subscriber_id": "IMSI-6359859611191",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 111,
+   "timestamp": "2026-11-23T18:24:37Z",
+   "subscriber_id": "IMSI-6353795742288",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 115,
+   "timestamp": "2026-11-23T18:26:52Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 292,
+   "timestamp": "2026-11-23T18:28:16Z",
+   "subscriber_id": "IMSI-6351776213899",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 74,
+   "timestamp": "2026-11-23T18:29:12Z",
+   "subscriber_id": "IMSI-6355209818936",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 62,
+   "timestamp": "2026-11-23T18:35:18Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 299,
+   "timestamp": "2026-11-23T18:39:56Z",
+   "subscriber_id": "IMSI-6352287489453",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 112,
+   "timestamp": "2026-11-23T18:43:21Z",
+   "subscriber_id": "IMSI-6359790005680",
+   "event_type": "attach",
+   "country": "KE"
+  },
+  {
+   "event_id": 96,
+   "timestamp": "2026-11-23T18:44:33Z",
+   "subscriber_id": "IMSI-6353869965264",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 9,
+   "timestamp": "2026-11-23T18:46:06Z",
+   "subscriber_id": "IMSI-6352823296038",
+   "event_type": "detach",
+   "country": "RW"
+  },
+  {
+   "event_id": 85,
+   "timestamp": "2026-11-23T18:46:21Z",
+   "subscriber_id": "IMSI-6357550669089",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 25,
+   "timestamp": "2026-11-23T18:47:56Z",
+   "subscriber_id": "IMSI-6352703729684",
+   "event_type": "location_update",
+   "country": "UG"
+  },
+  {
+   "event_id": 66,
+   "timestamp": "2026-11-23T18:52:21Z",
+   "subscriber_id": "IMSI-6356179553247",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 29,
+   "timestamp": "2026-11-23T18:52:27Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 219,
+   "timestamp": "2026-11-23T19:01:07Z",
+   "subscriber_id": "IMSI-6355070378921",
+   "event_type": "detach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 169,
+   "timestamp": "2026-11-23T19:04:50Z",
+   "subscriber_id": "IMSI-6355070378921",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 53,
+   "timestamp": "2026-11-23T19:10:20Z",
+   "subscriber_id": "IMSI-6351300026767",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 134,
+   "timestamp": "2026-11-23T19:16:01Z",
+   "subscriber_id": "IMSI-6357847766477",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 210,
+   "timestamp": "2026-11-23T19:16:06Z",
+   "subscriber_id": "IMSI-6358546862847",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 149,
+   "timestamp": "2026-11-23T19:29:09Z",
+   "subscriber_id": "IMSI-6358546862847",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 285,
+   "timestamp": "2026-11-23T19:36:30Z",
+   "subscriber_id": "IMSI-6351776213899",
+   "event_type": "sms_mo",
+   "country": "KE"
+  },
+  {
+   "event_id": 31,
+   "timestamp": "2026-11-23T19:43:04Z",
+   "subscriber_id": "IMSI-6353869965264",
+   "event_type": "sms_mo",
+   "country": "RW"
+  },
+  {
+   "event_id": 279,
+   "timestamp": "2026-11-23T19:49:43Z",
+   "subscriber_id": "IMSI-6356642502604",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 164,
+   "timestamp": "2026-11-23T19:59:28Z",
+   "subscriber_id": "IMSI-6359979544025",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 200,
+   "timestamp": "2026-11-23T20:02:20Z",
+   "subscriber_id": "IMSI-6352795823848",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 189,
+   "timestamp": "2026-11-23T20:10:33Z",
+   "subscriber_id": "IMSI-6352048386555",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 16,
+   "timestamp": "2026-11-23T20:38:09Z",
+   "subscriber_id": "IMSI-6355942859575",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 141,
+   "timestamp": "2026-11-23T20:41:51Z",
+   "subscriber_id": "IMSI-6358546862847",
+   "event_type": "sms_mo",
+   "country": "KE"
+  },
+  {
+   "event_id": 223,
+   "timestamp": "2026-11-23T20:43:50Z",
+   "subscriber_id": "IMSI-6356538829718",
+   "event_type": "call_setup",
+   "country": "TZ"
+  },
+  {
+   "event_id": 290,
+   "timestamp": "2026-11-23T21:03:16Z",
+   "subscriber_id": "IMSI-6359859611191",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 227,
+   "timestamp": "2026-11-23T21:13:20Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 142,
+   "timestamp": "2026-11-23T21:15:54Z",
+   "subscriber_id": "IMSI-6353795742288",
+   "event_type": "sms_mo",
+   "country": "KE"
+  },
+  {
+   "event_id": 215,
+   "timestamp": "2026-11-23T21:22:42Z",
+   "subscriber_id": "IMSI-6355209818936",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 245,
+   "timestamp": "2026-11-23T21:39:21Z",
+   "subscriber_id": "IMSI-6353179419893",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 121,
+   "timestamp": "2026-11-23T21:48:03Z",
+   "subscriber_id": "IMSI-6359859611191",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 15,
+   "timestamp": "2026-11-23T21:52:18Z",
+   "subscriber_id": "IMSI-6356644219119",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 20,
+   "timestamp": "2026-11-23T21:55:41Z",
+   "subscriber_id": "IMSI-6357241379376",
+   "event_type": "location_update",
+   "country": "UG"
+  },
+  {
+   "event_id": 300,
+   "timestamp": "2026-11-23T21:57:21Z",
+   "subscriber_id": "IMSI-6359053654215",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 264,
+   "timestamp": "2026-11-23T22:02:59Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 72,
+   "timestamp": "2026-11-23T22:04:07Z",
+   "subscriber_id": "IMSI-6358546862847",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 8,
+   "timestamp": "2026-11-23T22:12:09Z",
+   "subscriber_id": "IMSI-6352287489453",
+   "event_type": "auth_request",
+   "country": "RW"
+  },
+  {
+   "event_id": 159,
+   "timestamp": "2026-11-23T22:36:55Z",
+   "subscriber_id": "IMSI-6359845919668",
+   "event_type": "auth_request",
+   "country": "KE"
+  },
+  {
+   "event_id": 104,
+   "timestamp": "2026-11-23T22:38:07Z",
+   "subscriber_id": "IMSI-6352599435267",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 301,
+   "timestamp": "2026-11-23T22:42:18Z",
+   "subscriber_id": "IMSI-6355061759525",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 281,
+   "timestamp": "2026-11-23T22:44:27Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 261,
+   "timestamp": "2026-11-23T22:46:13Z",
+   "subscriber_id": "IMSI-6351776213899",
+   "event_type": "sms_mo",
+   "country": "KE"
+  },
+  {
+   "event_id": 305,
+   "timestamp": "2026-11-23T22:49:27Z",
+   "subscriber_id": "IMSI-6359589392397",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 139,
+   "timestamp": "2026-11-23T22:50:25Z",
+   "subscriber_id": "IMSI-6358546862847",
+   "event_type": "attach",
+   "country": "KE"
+  },
+  {
+   "event_id": 133,
+   "timestamp": "2026-11-23T22:55:32Z",
+   "subscriber_id": "IMSI-6359845919668",
+   "event_type": "location_update",
+   "country": "KE"
+  },
+  {
+   "event_id": 268,
+   "timestamp": "2026-11-23T23:04:57Z",
+   "subscriber_id": "IMSI-6352959386986",
+   "event_type": "call_setup",
+   "country": "UG"
+  },
+  {
+   "event_id": 19,
+   "timestamp": "2026-11-23T23:05:53Z",
+   "subscriber_id": "IMSI-6355070378921",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 185,
+   "timestamp": "2026-11-23T23:07:05Z",
+   "subscriber_id": "IMSI-6359859611191",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 45,
+   "timestamp": "2026-11-23T23:09:01Z",
+   "subscriber_id": "IMSI-6357550669089",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 225,
+   "timestamp": "2026-11-23T23:09:59Z",
+   "subscriber_id": "IMSI-6357395047810",
+   "event_type": "attach",
+   "country": "KE"
+  },
+  {
+   "event_id": 32,
+   "timestamp": "2026-11-23T23:10:19Z",
+   "subscriber_id": "IMSI-6356644219119",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 144,
+   "timestamp": "2026-11-23T23:11:48Z",
+   "subscriber_id": "IMSI-6352823296038",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 306,
+   "timestamp": "2026-11-23T23:22:27Z",
+   "subscriber_id": "IMSI-6359589392397",
+   "event_type": "location_update",
+   "country": "CD"
+  },
+  {
+   "event_id": 28,
+   "timestamp": "2026-11-23T23:24:28Z",
+   "subscriber_id": "IMSI-6359845919668",
+   "event_type": "call_setup",
+   "country": "KE"
+  },
+  {
+   "event_id": 42,
+   "timestamp": "2026-11-23T23:24:56Z",
+   "subscriber_id": "IMSI-6357241379376",
+   "event_type": "location_update",
+   "country": "UG"
+  },
+  {
+   "event_id": 138,
+   "timestamp": "2026-11-23T23:25:08Z",
+   "subscriber_id": "IMSI-6354607634174",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 80,
+   "timestamp": "2026-11-23T23:25:39Z",
+   "subscriber_id": "IMSI-6355070378921",
+   "event_type": "auth_request",
+   "country": "TZ"
+  },
+  {
+   "event_id": 192,
+   "timestamp": "2026-11-23T23:27:54Z",
+   "subscriber_id": "IMSI-6352823296038",
+   "event_type": "call_setup",
+   "country": "RW"
+  },
+  {
+   "event_id": 220,
+   "timestamp": "2026-11-23T23:34:09Z",
+   "subscriber_id": "IMSI-6351300026767",
+   "event_type": "sms_mo",
+   "country": "TZ"
+  },
+  {
+   "event_id": 278,
+   "timestamp": "2026-11-23T23:38:57Z",
+   "subscriber_id": "IMSI-6351161042648",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 233,
+   "timestamp": "2026-11-23T23:39:10Z",
+   "subscriber_id": "IMSI-6357762098351",
+   "event_type": "location_update",
+   "country": "RW"
+  },
+  {
+   "event_id": 196,
+   "timestamp": "2026-11-23T23:46:06Z",
+   "subscriber_id": "IMSI-6353744112455",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 293,
+   "timestamp": "2026-11-23T23:47:12Z",
+   "subscriber_id": "IMSI-6351300026767",
+   "event_type": "attach",
+   "country": "TZ"
+  },
+  {
+   "event_id": 49,
+   "timestamp": "2026-11-23T23:52:44Z",
+   "subscriber_id": "IMSI-6358427910944",
+   "event_type": "location_update",
+   "country": "TZ"
+  },
+  {
+   "event_id": 114,
+   "timestamp": "2026-11-23T23:54:10Z",
+   "subscriber_id": "IMSI-6357550669089",
+   "event_type": "attach",
+   "country": "RW"
+  },
+  {
+   "event_id": 135,
+   "timestamp": "2026-11-23T23:56:25Z",
+   "subscriber_id": "IMSI-6355070378921",
+   "event_type": "call_setup",
+   "country": "TZ"
+  },
+  {
+   "event_id": 302,
+   "timestamp": "2026-11-24T00:16:18Z",
+   "subscriber_id": "IMSI-6355061759525",
+   "event_type": "location_update",
+   "country": "GB"
+  },
+  {
+   "event_id": 325,
+   "timestamp": "2026-11-23T20:00:00Z",
+   "subscriber_id": "IMSI-6352753077010",
+   "event_type": "attach",
+   "country": "KE"
+  },
+  {
+   "event_id": 326,
+   "timestamp": "2026-11-23T02:00:00Z",
+   "subscriber_id": "IMSI-6352753077010",
+   "event_type": "location_update",
+   "country": "KE"
+  }
+ ],
+ "ground_truth": {
+  "implausible_travel": [
+   302,
+   304
+  ],
+  "legit_border": [
+   306
+  ],
+  "malformed": [
+   307,
+   308
+  ],
+  "auth_burst": [
+   309,
+   310,
+   311,
+   312,
+   313,
+   314,
+   315,
+   316,
+   317,
+   318,
+   319,
+   320,
+   321,
+   322,
+   323,
+   324
+  ],
+  "non_monotonic": [
+   326
+  ]
+ }
+}

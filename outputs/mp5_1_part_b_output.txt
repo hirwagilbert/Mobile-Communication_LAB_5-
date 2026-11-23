@@ -1,0 +1,98 @@
+========================================================================
+MINI PROJECT 5.1 - PART B: SIGNALING-PLANE ANOMALY DETECTION
+========================================================================
+Synthetic log: 326 events, 47 subscribers
+Injected: {'implausible_travel': 2, 'legit_border': 1, 'malformed': 2, 'auth_burst': 16, 'non_monotonic': 1}
+
+Sample of normal events (full log saved as JSON):
+   #222  11-23 00:02 ..595691 sms_mo          TZ
+   #41   11-23 00:04 ..634174 attach          RW
+   #229  11-23 00:22 ..859575 auth_request    RW
+   #179  11-23 00:25 ..005680 call_setup      KE
+
+------------------------------------------------------------------------
+Run 1 - basic detector: flat R1 threshold = 60 min
+------------------------------------------------------------------------
+FLAGGED ENTRIES (16):
+  [R2-schema    ] #308  11-23 01:08 ..870464 purge_all_subs  RW | invalid event_type 'purge_all_subs'
+  [R2-schema    ] #307  11-23 13:32 ..492042 location_update -- | missing field(s): country
+  [R1-travel    ] #304  11-23 06:24 ..833212 location_update GB | RW->GB in 16 min (< 60 min)
+  [R1-travel    ] #306  11-23 23:22 ..392397 location_update CD | RW->CD in 33 min (< 60 min)
+  [R3-auth-rate ] #314  11-23 17:36 ..673891 auth_request    UG | 6 auth_request in 60s (> 5)
+  [R3-auth-rate ] #315  11-23 17:36 ..673891 auth_request    UG | 7 auth_request in 60s (> 5)
+  [R3-auth-rate ] #316  11-23 17:36 ..673891 auth_request    UG | 8 auth_request in 60s (> 5)
+  [R4-time-order] #326  11-23 02:00 ..077010 location_update KE | time went back 1080 min
+  [R3-auth-rate ] ... 8 more events from the same burst
+
+Injected anomaly                 injected  detected
+------------------------------------------------------
+implausible_travel                      2         1
+malformed                               2         2
+auth_burst                             16        11  (first 5 of the burst are below the rate limit)
+non_monotonic                           1         1
+legit_border (should NOT flag)          1         1  <- false positive(s)
+ordinary events flagged                           0
+
+------------------------------------------------------------------------
+Run 2 - tuned detector: distance-aware R1 (900 km/h + 60 min, neighbours 5 min)
+------------------------------------------------------------------------
+FLAGGED ENTRIES (16):
+  [R2-schema    ] #308  11-23 01:08 ..870464 purge_all_subs  RW | invalid event_type 'purge_all_subs'
+  [R2-schema    ] #307  11-23 13:32 ..492042 location_update -- | missing field(s): country
+  [R1-travel    ] #304  11-23 06:24 ..833212 location_update GB | RW->GB in 16 min (< 499 min)
+  [R1-travel    ] #302  11-24 00:16 ..759525 location_update GB | RW->GB in 94 min (< 499 min)
+  [R3-auth-rate ] #314  11-23 17:36 ..673891 auth_request    UG | 6 auth_request in 60s (> 5)
+  [R3-auth-rate ] #315  11-23 17:36 ..673891 auth_request    UG | 7 auth_request in 60s (> 5)
+  [R3-auth-rate ] #316  11-23 17:36 ..673891 auth_request    UG | 8 auth_request in 60s (> 5)
+  [R4-time-order] #326  11-23 02:00 ..077010 location_update KE | time went back 1080 min
+  [R3-auth-rate ] ... 8 more events from the same burst
+
+Injected anomaly                 injected  detected
+------------------------------------------------------
+implausible_travel                      2         2
+malformed                               2         2
+auth_burst                             16        11  (first 5 of the burst are below the rate limit)
+non_monotonic                           1         1
+legit_border (should NOT flag)          1         0  <- false positive(s)
+ordinary events flagged                           0
+
+--- Lab Task 5: tuning the implausible-travel threshold ---
+
+Large log: 5365 events, 40 implausible jumps, 25 fast border crossings, 80 legit flights
+
+  flat-threshold R1
+threshold(min)   TP   FP   FN  precision   recall
+            10    4    0   36      1.000    0.100
+            20    9    7   31      0.562    0.225
+            30   12   17   28      0.414    0.300
+            45   15   25   25      0.375    0.375
+            60   16   25   24      0.390    0.400
+            90   24   27   16      0.471    0.600
+           120   32   31    8      0.508    0.800
+           180   40   36    0      0.526    1.000
+           240   40   42    0      0.488    1.000
+           360   40   50    0      0.444    1.000
+
+  border-aware R1
+threshold(min)   TP   FP   FN  precision   recall
+            10    4    0   36      1.000    0.100
+            20    9    0   31      1.000    0.225
+            30   12    0   28      1.000    0.300
+            45   15    0   25      1.000    0.375
+            60   16    0   24      1.000    0.400
+            90   24    0   16      1.000    0.600
+           120   32    0    8      1.000    0.800
+           180   40    1    0      0.976    1.000
+           240   40    1    0      0.976    1.000
+           360   40    2    0      0.952    1.000
+
+  distance-aware R1 (per-pair limit = distance / speed + 60 min)
+   speed(km/h)   TP   FP   FN  precision   recall
+           300   40   53    0      0.430    1.000
+           600   40   41    0      0.494    1.000
+           900   40    0    0      1.000    1.000
+          1500   40    0    0      1.000    1.000
+          3000   40    0    0      1.000    1.000
+
+Saved: outputs/signaling_log_sample.json, outputs/threshold_sweep.csv
+Done.

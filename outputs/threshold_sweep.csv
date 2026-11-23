@@ -1,0 +1,26 @@
+rule,parameter,TP,FP,FN,precision,recall
+flat-threshold R1,10 min,4,0,36,1.0,0.1
+flat-threshold R1,20 min,9,7,31,0.562,0.225
+flat-threshold R1,30 min,12,17,28,0.414,0.3
+flat-threshold R1,45 min,15,25,25,0.375,0.375
+flat-threshold R1,60 min,16,25,24,0.39,0.4
+flat-threshold R1,90 min,24,27,16,0.471,0.6
+flat-threshold R1,120 min,32,31,8,0.508,0.8
+flat-threshold R1,180 min,40,36,0,0.526,1.0
+flat-threshold R1,240 min,40,42,0,0.488,1.0
+flat-threshold R1,360 min,40,50,0,0.444,1.0
+border-aware R1,10 min,4,0,36,1.0,0.1
+border-aware R1,20 min,9,0,31,1.0,0.225
+border-aware R1,30 min,12,0,28,1.0,0.3
+border-aware R1,45 min,15,0,25,1.0,0.375
+border-aware R1,60 min,16,0,24,1.0,0.4
+border-aware R1,90 min,24,0,16,1.0,0.6
+border-aware R1,120 min,32,0,8,1.0,0.8
+border-aware R1,180 min,40,1,0,0.976,1.0
+border-aware R1,240 min,40,1,0,0.976,1.0
+border-aware R1,360 min,40,2,0,0.952,1.0
+distance-aware R1,300 km/h,40,53,0,0.43,1.0
+distance-aware R1,600 km/h,40,41,0,0.494,1.0
+distance-aware R1,900 km/h,40,0,0,1.0,1.0
+distance-aware R1,1500 km/h,40,0,0,1.0,1.0
+distance-aware R1,3000 km/h,40,0,0,1.0,1.0

@@ -1,0 +1,53 @@
+========================================================================
+MINI PROJECT 5.1 - PART A: CHALLENGE-RESPONSE AUTHENTICATION
+========================================================================
+Shared secret K provisioned in Device (SIM) and HomeNetwork (AuC).
+K is 256 bits and is NEVER printed or transmitted.
+
+--- Authentication run #1 ---
+   [air] HomeNetwork -> Device      RAND  = 13006f80634c6c91a837531cd515ebd7...
+   [air]      Device -> HomeNetwork RES   = 95231896657528cae28ca043b2fbcf4b...
+   RES  (device)  = 95231896657528cae28ca043b2fbcf4b...
+   XRES (network) = 95231896657528cae28ca043b2fbcf4b...
+   Result         : AUTHENTICATION SUCCESS
+   Kc at device   = 90b7c31969f91cccf7e01198d0d473ad...
+   Kc at network  = 90b7c31969f91cccf7e01198d0d473ad...
+   Session keys identical          : True
+   K ever sent over the channel    : False
+   Kc ever sent over the channel   : False
+   RES differs from session key    : True
+
+--- Forgery attempt by a passive attacker ---
+   New challenge RAND2 = 392d1d7808d7ec26a40b512b7b1ed1ff...
+   [1] Replay old RES             -> match = False
+   [2] Guess K = observed RES            -> match = False
+   [2] Guess K = observed RAND           -> match = False
+   [2] Guess K = RAND xor RES[:16] (x2)  -> match = False
+   [2] Guess K = SHA256(RAND)            -> match = False
+   [2] Guess K = SHA256(RAND||RES)       -> match = False
+   [3] Brute force 20000 random keys -> key found = False (key space = 2^256)
+   Conclusion: one observed (RAND, RES) pair gives no way to forge RES2.
+
+--- Lab Task 1: replay attack ---
+   Legitimate run accepted          : True
+   (a) Old RES vs new RAND accepted : False
+   (b) Full replay, naive network   : True  <-- vulnerable
+   (c) Legit run, hardened network  : True
+   HomeNetwork: RAND already used -> REPLAY REJECTED
+       Full replay, hardened network: False
+
+--- Lab Task 3: mutual authentication ---
+   Genuine network sends RAND + AUTN-like token
+   Device: network token valid and SQN 1 is fresh -> network authenticated
+   Device response accepted          : True
+   Fake base station (no K) sends RAND + random token
+   Device: network token INVALID -> fake base station rejected
+   Attacker replays the earlier genuine RAND + token
+   Device: SQN 1 <= last accepted 1 -> replayed challenge rejected
+
+--- Re-running: fresh RAND and session key every time ---
+   run #2: RAND=4f9513be9d3333c4... Kc=32141022d9959612... success=True
+   run #3: RAND=44182625d862b68f... Kc=e4130c7482864b1d... success=True
+   run #4: RAND=9950aca0c8f8b970... Kc=31f9aef54c634081... success=True
+
+Done.

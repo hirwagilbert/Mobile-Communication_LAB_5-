@@ -1,0 +1,9 @@
+id,data_practice,purpose,consent_mechanism,retention,GDPR,CCPA/CPRA,LGPD,DPDP Act
+P1,"Account data (name, email, password hash)",Create and secure the user account,not_required,Until account deletion + 30 days,COMPLIANT,COMPLIANT,COMPLIANT,COMPLIANT
+P2,Precise GPS location during workouts,Record and display run routes,opt_in,24 months,COMPLIANT,COMPLIANT,COMPLIANT,COMPLIANT
+P3,Background location (outside workouts),Location-based advertising,bundled_terms,24 months,GAP,GAP,GAP,GAP
+P4,Heart rate and health metrics from wristband,Training zones; wellness-discount offers from an insurer,bundled_terms,Indefinite,GAP,GAP,GAP,GAP
+P5,Face template for login (biometric),Authenticate the user (face unlock),opt_in,Until account deletion,COMPLIANT,COMPLIANT,COMPLIANT,COMPLIANT
+P6,Phone contacts (uploaded address book),Friend finder,opt_out,Indefinite,GAP,GAP,GAP,GAP
+P7,"Usage analytics (screens, taps, crash logs)",Product improvement and crash fixing,opt_out,13 months,COMPLIANT,COMPLIANT,COMPLIANT,GAP
+P8,Advertising identifier (AAID / IDFA),Personalised (cross-context behavioural) advertising,bundled_terms,24 months,GAP,GAP,GAP,GAP
